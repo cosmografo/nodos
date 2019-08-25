@@ -16,10 +16,10 @@ For further instructions on running Docker in Windows and Mac:
 * [Docker for Mac documentation](https://docs.docker.com/docker-for-mac)
 
 
-Clone the repository:
+Clone the repository
 
 ```
-git clone git@gitlab.com:cosmografo/tor-relay.git
+git clone https://gitlab.com/cosmografo/tor-relay.git
 ```
 
 Change directory
@@ -27,6 +27,21 @@ Change directory
 ```
 cd tor-relay
 ```
+
+
+Relay configuration
+
+```
+ORPort 9001
+DataDirectory /home/tor
+ContactInfo none@none.com # change for your email
+Nickname name-tor-relay # put here your nickname tor relay
+ExitRelay 0
+SocksPort 0
+ControlSocket 0
+
+```
+
 
 Create tor_data (owned as root)
 
