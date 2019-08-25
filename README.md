@@ -35,7 +35,7 @@ Relay configuration
 ORPort 9001
 DataDirectory /home/tor
 ContactInfo none@none.com # change for your email
-Nickname name-tor-relay # put here your nickname tor relay
+Nickname name-tor-relay # put here nickname tor relay
 ExitRelay 0
 SocksPort 0
 ControlSocket 0
